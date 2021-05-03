@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  float: left;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+li {
+  color: #f7f7f7;
+  font-size: 2rem;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.navbar, .navbar:active {
+  padding: 1rem;
+  height: 96.6vh;
+  transition: all 0.5s;
+}
